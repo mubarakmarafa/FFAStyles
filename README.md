@@ -137,3 +137,28 @@ This field appears at the very top of every style file and can be used to filter
 Each `.md` contains the full JSON template with detailed fields for fidelity and consistency [[memory:6905418]].
 
 
+### Tutorial: Use with ChatGPT
+
+Follow these steps to generate an image using any style template in ChatGPT:
+
+1. Open a style file (for example, `Default Styles/Vector Illustrator.md`).
+2. Copy the entire JSON object from the file.
+3. Paste it into ChatGPT.
+4. Edit the value of `object_specification.subject` to your desired subject (e.g., "retro robot vacuum").
+5. Send the message and ask ChatGPT to produce the final prompt (or the final JSON) for image generation.
+
+Example of what you paste (only change the subject):
+```json
+{
+  "metadata": { "type": { "category": "Shapes" } },
+  "object_specification": { "subject": "retro robot vacuum" },
+  "drawing_style": { "perspective": "flat, 2D vector perspective" },
+  "output": { "format": "PNG or SVG", "canvas_ratio": "1:1" }
+}
+```
+
+Tips:
+- **Keep constraints**: Avoid removing required fields (background, output, style constraints) to maintain consistency.
+- **Swap styles**: Try different files (e.g., `Doodles.md`, `3D Cute.md`) and only change the `subject`.
+- **Metadata**: The `metadata.type.category` is for organization and filtering; you do not need to edit it.
+
