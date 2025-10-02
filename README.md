@@ -3,7 +3,7 @@
 A collection of JSON-based image prompt templates. Each file contains a structured object describing a visual style and output constraints. Paste your subject into the `object_specification.subject` field and adjust as needed.
 
 - **Doodles**: Hand-drawn digital notes look. Clean black lines, minimal, no shading. White background.
-  - File: `Doodles.md`
+  - File: `Default Styles/Doodles.md`
   - Best for: playful sketches, stickers, whiteboard notes
   - Example:
 ```json
@@ -17,7 +17,7 @@ A collection of JSON-based image prompt templates. Each file contains a structur
 ```
 
 - **Wireframe**: Technical blueprint-style line work. Geometric, construction lines visible, no fill. White background.
-  - File: `Wireframe.md`
+  - File: `Default Styles/Wireframe.md`
   - Best for: product structure, CAD-like sketches, concept drafting
   - Example:
 ```json
@@ -32,7 +32,7 @@ A collection of JSON-based image prompt templates. Each file contains a structur
 ```
 
 - **Pictogram**: Ultra-minimal black silhouette built from basic shapes. Transparent background.
-  - File: `Pictogram.md`
+  - File: `Default Styles/Pictogram.md`
   - Best for: signage icons, sports symbols, universal pictograms
   - Example:
 ```json
@@ -46,7 +46,7 @@ A collection of JSON-based image prompt templates. Each file contains a structur
 ```
 
 - **Vector Illustrator**: Flat vector illustration with bold outlines and transparent overlays for shading. Transparent background.
-  - File: `Vector Illustrator.md`
+  - File: `Default Styles/Vector Illustrator.md`
   - Best for: app illustrations, marketing graphics, icons
   - Example:
 ```json
@@ -60,7 +60,7 @@ A collection of JSON-based image prompt templates. Each file contains a structur
 ```
 
 - **3D Cute**: High-fidelity isometric 3D render with soft lighting and a white die-cut sticker border. Transparent background PNG.
-  - File: `3D Cute.md`
+  - File: `Default Styles/3D Cute.md`
   - Best for: product stickers, UI iconography with depth
   - Example:
 ```json
@@ -74,7 +74,7 @@ A collection of JSON-based image prompt templates. Each file contains a structur
 ```
 
 - **Origami**: Handmade construction-paper origami assembly with visible paper textures and slight imperfections. Transparent background.
-  - File: `Origami.md`
+  - File: `Default Styles/Origami.md`
   - Best for: crafty, tactile visuals, playful subjects
   - Example:
 ```json
@@ -88,7 +88,7 @@ A collection of JSON-based image prompt templates. Each file contains a structur
 ```
 
 - **Textbook Diagram**: Clean, modern medical/textbook-style diagram with thin outlines and pastel fills. White background.
-  - File: `Textbook Diagram.md`
+  - File: `Default Styles/Textbook Diagram.md`
   - Best for: educational diagrams, labeled figures (labels added separately)
   - Example:
 ```json
@@ -101,6 +101,11 @@ A collection of JSON-based image prompt templates. Each file contains a structur
   }
 }
 ```
+
+### Folders
+
+- `Default Styles/`: curated templates included with this repo
+- `Additional Styles/`: add your own styles here (kept with a `.keep` file)
 
 ### Quick usage
 
