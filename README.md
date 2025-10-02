@@ -2,6 +2,26 @@
 
 A collection of JSON-based image prompt templates. Each file contains a structured object describing a visual style and output constraints. Paste your subject into the `object_specification.subject` field and adjust as needed.
 
+### Metadata
+
+Each style now includes a top-level `metadata` object for image-generation products:
+
+```json
+"metadata": {
+  "type": {
+    "category": "Elements / Stickers"
+  }
+}
+```
+
+- **type.category**: One of the following taxonomy buckets:
+  - **Strokes**
+  - **Shapes**
+  - **Elements / Stickers**
+  - **Images**
+
+This field appears at the very top of every style file and can be used to filter or group styles programmatically.
+
 - **Doodles**: Hand-drawn digital notes look. Clean black lines, minimal, no shading. White background.
   - File: `Default Styles/Doodles.md`
   - Best for: playful sketches, stickers, whiteboard notes

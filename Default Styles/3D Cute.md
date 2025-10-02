@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "type": {
+      "category": "Elements / Stickers"
+    }
+  },
   "prompt_description": "Generate a [subject] as a 3D object rendered in Blender or Octane. The design should feature realistic lighting and dimensional shading, and it must be exported as a transparent alpha PNG (no background, no gradients, no checkerboards). Apply a white die-cut border around the object for a sticker-style appearance. Follow this style:",
   "object_specification": {
     "subject": ""

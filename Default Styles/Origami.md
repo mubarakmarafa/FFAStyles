@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "type": {
+      "category": "Elements / Stickers"
+    }
+  },
   "prompt_description": "Generate a [subject] in the style of a handmade origami sculpture assembled from multiple pieces of colorful construction paper. The subject should look like it was created by folding separate origami elements and gluing them together. Each piece should have its own distinct solid color, as if made from bright construction paper. The design should not be too perfect — small asymmetries, uneven folds, overlaps, or gaps should be present to emphasize the handmade quality. The surfaces must show the texture of real construction paper, with matte fibrous details. The overall style should feel physical, playful, and crafted. The background must be fully transparent, showing only the assembled paper sculpture.",
   "object_specification": {
     "subject": " "

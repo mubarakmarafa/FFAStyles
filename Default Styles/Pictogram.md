@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "type": {
+      "category": "Shapes"
+    }
+  },
   "prompt_description": "Generate a [subject] in the style of a pictogram icon, similar to sports signage or Olympic pictograms. The design should be extremely simple, constructed only from basic geometric shapes. The pictogram must be a flat, solid black silhouette with no shading, gradients, or texture. The form should be clear, bold, and highly readable even at very small sizes. The style should feel vectorised, minimal, and iconic, so it can easily be converted into an SVG with as few points as possible. The background must be fully transparent.",
   "object_specification": {
     "subject": " "

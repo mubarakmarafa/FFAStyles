@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "type": {
+      "category": "Shapes"
+    }
+  },
   "prompt_description": "Generate a [subject] in a clean vector illustration style, as if created in Adobe Illustrator. The design should use bold but simple flat shapes with medium-width black outlines. Shading and highlights should be created through overlapping shapes with blending-mode transparency (e.g., multiply or overlay effects), rather than gradients or realism. The look should be flat, crisp, and modern, with vibrant colors that pop but are not overly saturated. The overall aesthetic should be approachable, clear, and versatile for use as icons or illustrations. The background must be fully transparent, showing only the vector subject.",
   "object_specification": {
     "subject": " "

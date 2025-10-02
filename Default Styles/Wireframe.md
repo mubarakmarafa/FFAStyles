@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "type": {
+      "category": "Strokes"
+    }
+  },
   "prompt_description": "Generate a wireframe blueprint-style line drawing of a [subject]. The drawing should consist of clean, straight geometric lines that suggest structure and form, like a technical sketch. The strokes may include construction lines, overlaps, and guiding shapes, but should remain minimal and schematic. Avoid shading, coloring, or filled areas. The background must be pure solid white, with no textures, grids, or paper effects.",
   "object_specification": {
     "subject": " "

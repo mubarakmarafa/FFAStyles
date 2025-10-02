@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "type": {
+      "category": "Strokes"
+    }
+  },
   "prompt_description": "Generate a simple hand-drawn sketch of a [subject] in the style of digital note-taking doodles, as if drawn using an Apple Pencil in Goodnotes or Notability. The drawing should feature clean, solid black lines with slight imperfections, open strokes, and a playful, relaxed feel. Avoid realism or detailed shading. The background must be pure solid white, with no lines, textures, or page effects. Follow this style:",
   "object_specification": {
     "subject": " "

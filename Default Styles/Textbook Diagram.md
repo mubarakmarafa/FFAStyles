@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "type": {
+      "category": "Images"
+    }
+  },
   "prompt_description": "Generate a [subject] in the style of a modern medical journal drawing. The illustration should be clean and precise, with thin black outlines and soft faded color fills to distinguish different forms. The colors should be muted and pastel, used only to separate regions and make shapes identifiable, not to add realism. Shading should be minimal, with very light tonal variation if needed for clarity. The background must be pure white, resembling a textbook or notebook page, so the illustration is clear and easy to annotate. No labels, text, or written annotations should be included.",
   "object_specification": {
     "subject": " "
